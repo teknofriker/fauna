@@ -1,5 +1,7 @@
 ﻿from Animales import Animales
 class fauna:
+        #se me ve en toda la clase
+        lista_animales= Animales()
         def menu(self):
                 while True:
                     print("\n---- Menu ----")
