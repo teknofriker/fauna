@@ -32,10 +32,9 @@ class fauna:
                         print("Opción no válida. Por favor, elije una opción válida.")
         
 #este es el "ejecutable" Esto debería ir en el arranque, en un botón, en un icono..... pero por hoy, encapsulamos hasta aquí ;)        
-def main():
-    self.menu()
-    
-
+def main(): 
+        F=Fauna()
+        F.menu()
 if __name__ == "__main__":
     main()
 
