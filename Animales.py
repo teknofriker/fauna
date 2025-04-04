@@ -8,7 +8,7 @@ class Animales():
         
         self.animales.append(nuevo_animal)
         
-         
+
     def mostrar_animales(self):
         print("Lista de Animales:")
         for i, animal in enumerate(self.animales, 1):
