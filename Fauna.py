@@ -1,9 +1,8 @@
-﻿from lista_menu import ListaAnimales
+﻿from menu import Fauna
 
 def main():
-    lista_animales = ListaAnimales()
-    lista_animales.menu()
-    
+    fauna = Fauna()
+    fauna.menu()
 
 if __name__ == "__main__":
     main()
