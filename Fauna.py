@@ -34,7 +34,6 @@ class fauna:
 #este es el "ejecutable" Esto debería ir en el arranque, en un botón, en un icono..... pero por hoy, encapsulamos hasta aquí ;)        
 def main():
     self.menu()
-    animales = Animales()
     
 
 if __name__ == "__main__":
