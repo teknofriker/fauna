@@ -1,4 +1,7 @@
 ﻿from Animales import Animales
+from Gato import Gato
+from Perro import Perro
+from AnimalesConMenu import ListaAnimales
 
 def menu(self):
         while True:
@@ -31,8 +34,8 @@ def menu(self):
 
 
 def main():
-    self.menu()
-    animales = Animales()
+    lista_animales = ListaAnimales()
+    lista_animales.menu()
     
 
 if __name__ == "__main__":

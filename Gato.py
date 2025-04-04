@@ -1,5 +1,4 @@
-from fauna import Animal
-
+from Animal import Animal
 
 class Gato(Animal):
     def hacer_sonido(self):
